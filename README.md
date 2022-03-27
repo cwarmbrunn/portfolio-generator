@@ -6,7 +6,7 @@ Portfolio Site Generator
 
 **Project Description/Summary:**
 
-Creating a Node.js application that dynamically generates a site after recieving user input via the terminal.
+Creating a Node.js application that dynamically generates a site after receiving user input via the terminal.
 
 ---
 
