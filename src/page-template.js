@@ -29,7 +29,7 @@ const generateProjects = (projectsArr) => {
               ${languages.map((language) => language).join(", ")}
             </h5>
             <p>${description}</p>
-            <a href="${link}" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+            <a href="${link}" target="_blank" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
           </div>
         `;
         })
@@ -46,7 +46,7 @@ const generateProjects = (projectsArr) => {
               ${languages.join(", ")}
             </h5>
             <p>${description}</p>
-            <a href="${link}" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+            <a href="${link}" target="_blank" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
           </div>
         `;
         })
@@ -81,7 +81,7 @@ module.exports = (templateData) => {
           header.name
         }</h1>
         <nav class="flex-row">
-          <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/${
+          <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark"  target="_blank" href="https://github.com/${
             header.github
           }">GitHub</a>
         </nav>
